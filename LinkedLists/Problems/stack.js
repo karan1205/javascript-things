@@ -2,7 +2,7 @@
  * Implement Stack using Linked List.
  */
 
-const SinglyLinkedList = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../SinglyLinkedList");
 
 function Stack() {
     this.list = new SinglyLinkedList();

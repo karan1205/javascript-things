@@ -2,7 +2,7 @@
  * Find n'th node from the end of a Linked List.
  */
 
-const SinglyLinkedList = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../SinglyLinkedList");
 
 const list = new SinglyLinkedList();
 list.insertNode(1);

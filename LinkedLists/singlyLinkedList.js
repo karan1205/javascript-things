@@ -163,4 +163,7 @@ function SinglyLinkedList() {
     }
 }
 
-module.exports = SinglyLinkedList;
+module.exports = {
+    SinglyLinkedList,
+    Node
+};
