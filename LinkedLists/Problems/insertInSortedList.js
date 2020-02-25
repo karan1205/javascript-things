@@ -2,7 +2,7 @@
  * Insert a node in a sorted linked list.
  */
 
-const { SinglyLinkedList, Node } = require("../SinglyLinkedList");
+const { SinglyLinkedList, Node } = require("../");
 
 const list = new SinglyLinkedList();
 list.insertNode(1);

@@ -2,7 +2,7 @@
  * Find the middle of the linked list
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 function midNode(list) {
     let slow = list.head;

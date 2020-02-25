@@ -3,7 +3,7 @@
  *  after the function has been called the linked list would hold 2 -> 1 -> 4 -> 3 -> X.
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 function reverseInPairs(list) {
     let current = list.head;

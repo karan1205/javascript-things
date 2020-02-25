@@ -2,7 +2,7 @@
  *  Display a linked list from the end
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 function displayFromEnd(node) {
     if(!node) {

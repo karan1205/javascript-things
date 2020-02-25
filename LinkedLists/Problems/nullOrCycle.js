@@ -2,7 +2,7 @@
  * Check whether the given linked list is either NULL-terminated or ends in a cycle (cyclic).
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 const list = new SinglyLinkedList();
 list.insertNode(1);

@@ -186,3 +186,7 @@ function DoublyLinkedList() {
         return this.size;
     }
 }
+
+module.exports = {
+    DoublyLinkedList
+}

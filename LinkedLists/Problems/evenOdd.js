@@ -2,7 +2,7 @@
  * Check whether the given Linked List length is even or odd
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 function isLinkedListLengthEven(list) {
     let fast = list.head;

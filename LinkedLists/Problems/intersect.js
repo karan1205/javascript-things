@@ -2,7 +2,7 @@
  * Find the intersection point of two Linked Lists
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 function lengthOfList(list) {
     let length = 0;

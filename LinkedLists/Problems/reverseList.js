@@ -2,7 +2,7 @@
  * Reverse a singly linked list.
  */
 
-const { SinglyLinkedList } = require("../SinglyLinkedList");
+const { SinglyLinkedList } = require("../");
 
 const list = new SinglyLinkedList();
 list.insertNode(1);

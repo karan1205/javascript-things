@@ -2,7 +2,7 @@
  * Given two sorted Linked Lists, merge them into the third list in sorted order.
  */
 
-const { SinglyLinkedList, Node } = require("../SinglyLinkedList");
+const { SinglyLinkedList, Node } = require("../");
 
 function merge(list1, list2) {
     let current1 = list1.head;
