@@ -12,7 +12,11 @@ This repository contains implementaions of data structures and algorithms, desig
 - [Built-in JavaScript Objects and Utils](#built-in-javascript-objects-and-Utils)
 - [Design Patterns](#design-patterns)
 - [Leet Code](#leet-code)
+    - [May Leet Coding Challenge](#may-leet-coding-challenge)
 - [Daily Coding Problem](#daily-coding-problem)
+    - [Easy](#easy)
+    - [Medium](#medium)
+    - [Hard](#hard)
 - [Misc](#misc)
 
 ## [Data Structures and Algorithms](./DsAlgo)
@@ -66,9 +70,31 @@ This repository contains implementaions of data structures and algorithms, desig
 
 ## [Leet Code](./LeetCode)
 
+- ### [May Leet Coding Challenge](./LeetCode/MayLeetCodingChallenge)
+    
+    - #### Day 1 - [First Bad Version](./LeetCode/MayLeetCodingChallenge/FirstBadVersion.js)
+
+        You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+        Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+
+        You are given an API bool isBadVersion(version) which will return whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+
+        Example:
+
+        ```
+        Given n = 5, and version = 4 is the first bad version.
+
+        call isBadVersion(3) -> false
+        call isBadVersion(5) -> true
+        call isBadVersion(4) -> true
+
+        Then 4 is the first bad version. 
+        ```
+
 ## [Daily Coding Problem](./DailyCodingProblem)
 
-- [Easy](./DailyCodingProblem/Easy)
+- ### [Easy](./DailyCodingProblem/Easy)
     
     [Problem 1](./DailyCodingProblem/Easy/P1.js)
     
