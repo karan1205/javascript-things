@@ -9,26 +9,26 @@ This repository contains implementaions of data structures and algorithms, desig
 ## Table of Contents
 
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
-- [Built-in JavaScript Objects and concepts](#built-in-javascript-objects)
+- [Built-in JavaScript Objects and Utils](#built-in-javascript-objects-and-Utils)
 - [Design Patterns](#design-patterns)
 - [Leet Code](#leet-code)
-- [Daily Coding Problems](#daily-coding-problem)
+- [Daily Coding Problem](#daily-coding-problem)
 - [Misc](#misc)
 
 ## [Data Structures and Algorithms](./DsAlgo)
 
 - [Recursion](./DsAlgo/Recursion/)
 - [Linked Lists](./DsAlgo/LinkedLists)
-    - [Singly Linked List]('./DsAlgo/LinkedLists/SinglyLinkedList.js')
-    - [Doubly Linked List]('./DsAlgo/LinkedLists/DoublyLinkedList.js')
-    - [Problems]('./DsAlgo/LinkedLists/Problems')
+    - [Singly Linked List](./DsAlgo/LinkedLists/SinglyLinkedList.js)
+    - [Doubly Linked List](./DsAlgo/LinkedLists/DoublyLinkedList.js)
+    - [Problems](./DsAlgo/LinkedLists/Problems)
 - [Stacks](./DsAlgo/Stacks)
     - [Using Array](./DsAlgo/Stacks/StackArray.js)
     - [Using Linked List](./DsAlgo/Stacks/LinkedList.js)
-    - [Problems]('./DsAlgo/Stacks/Problems')
+    - [Problems](./DsAlgo/Stacks/Problems)
 - [Trees](./DsAlgo/Trees)
     - [Binary Search Tree](./DsAlgo/Trees/BinarySearchTree.js)
-    - [Problems]('./DsAlgo/Trees/Problems')
+    - [Problems](./DsAlgo/Trees/Problems)
 
 ## [Built-in JavaScript Objects and Utils](./Js)
 
@@ -43,16 +43,16 @@ This repository contains implementaions of data structures and algorithms, desig
         - [bind](./Js/core/Function/bind.js)
     -  [Promise](./Js/core/Promise/promise.js)
     -  [Object](./Js/core/Object)
-        - [create](./Js/core/Array/Object/object.create.js)
+        - [create](./Js/core/Object/object.create.js)
 
 - [Utils](./Js/utils)
-    -  [Currying](./Js/core/utils/curry.js)
-    -  [Debounce](./Js/core/utils/debounce.js)
-    -  [Throttle](./Js/core/utils/throttle.js)
-    -  [Deep Clone Object](./Js/core/utils/deepCloneObject.js)
-    -  [getElementsByClassName](./Js/core/utils/getElementsByClassName.js)
-    -  [iterator](./Js/core/utils/iterator)
-    -  [Prototypal Inheritance](./Js/core/utils/prototypalInheritance.js)
+    -  [Currying](./Js/utils/curry.js)
+    -  [Debounce](./Js/utils/debounce.js)
+    -  [Throttle](./Js/utils/throttle.js)
+    -  [Deep Clone Object](./Js/utils/deepCloneObject.js)
+    -  [getElementsByClassName](./Js/utils/getElementsByClassName.js)
+    -  [iterator](./Js/utils/iterator)
+    -  [Prototypal Inheritance](./Js/utils/prototypalInheritance.js)
 
 
 ## [Design Patterns](./DesignPatterns)
@@ -66,11 +66,11 @@ This repository contains implementaions of data structures and algorithms, desig
 
 ## [Leet Code](./LeetCode)
 
-## [Daily Coding Problems](./DailyCodingProblems)
+## [Daily Coding Problem](./DailyCodingProblem)
 
-- [Easy](./DailyCodingProblems/Easy)
+- [Easy](./DailyCodingProblem/Easy)
     
-    [Problem 1](./DailyCodingProblems/Easy/P1.js)
+    [Problem 1](./DailyCodingProblem/Easy/P1.js)
     
     This problem was recently asked by Google.
     
@@ -82,7 +82,7 @@ This repository contains implementaions of data structures and algorithms, desig
 
     ___
     
-    [Problem 8](./DailyCodingProblems/Easy/P8.js)
+    [Problem 8](./DailyCodingProblem/Easy/P8.js)
     
     This problem was asked by Google.
     
@@ -102,7 +102,7 @@ This repository contains implementaions of data structures and algorithms, desig
     ```
     ___
 
-    [Problem 16](./DailyCodingProblems/Easy/P16.js)
+    [Problem 16](./DailyCodingProblem/Easy/P16.js)
     
     This problem was asked by Twitter.
     
@@ -116,7 +116,7 @@ This repository contains implementaions of data structures and algorithms, desig
     
     ___
 
-    [Problem 20](./DailyCodingProblems/Easy/P20.js)
+    [Problem 20](./DailyCodingProblem/Easy/P20.js)
     This problem was asked by Google.
     
     Given two singly linked lists that intersect at some point, find the intersecting node. The lists are     non-cyclical.
