@@ -4,7 +4,7 @@ function Node(data) {
     this.right = null;
 }
 
-function BinaryeSearchTree() {
+function BinarySearchTree() {
     this.head = null;
 
     this.insertNode = function(data) {
@@ -60,5 +60,5 @@ function BinaryeSearchTree() {
 
 module.exports = {
     Node,
-    BinaryeSearchTree
+    BinarySearchTree
 }

@@ -1,5 +1,5 @@
-const { Node, BinaryeSearchTree } = require("./BinaryeSearchTree");
+const { Node, BinarySearchTree } = require("./BinarySearchTree");
 
 module.exports = {
-    Node, BinaryeSearchTree
+    Node, BinarySearchTree
 }

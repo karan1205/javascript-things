@@ -46,18 +46,21 @@ function getIntersectionPoint(list1, list2) {
     return head1;
 }
 
-const list1 = new SinglyLinkedList();
-const list2 = new SinglyLinkedList();
-list1.insertNode(1);
-list1.insertNode(2);
-list1.insertNode(3);
-list1.insertNode(4);
-list1.insertNode(5);
-list1.insertNode(6);
-list2.insertNode('a');
-list2.insertNode('b');
-list2.insertNode('c');
-list2.insertNode('d');
-list2.head.next.next.next.next = list1.head.next.next;
-const pt = getIntersectionPoint(list1, list2);
-console.log(pt);
+// const list1 = new SinglyLinkedList();
+// const list2 = new SinglyLinkedList();
+// list1.insertNode(1);
+// list1.insertNode(2);
+// list1.insertNode(3);
+// list1.insertNode(4);
+// list1.insertNode(5);
+// list1.insertNode(6);
+// list2.insertNode('a');
+// list2.insertNode('b');
+// list2.insertNode('c');
+// list2.insertNode('d');
+// list2.head.next.next.next.next = list1.head.next.next;
+
+// const pt = getIntersectionPoint(list1, list2);
+// console.log(pt);
+
+module.exports = getIntersectionPoint;
