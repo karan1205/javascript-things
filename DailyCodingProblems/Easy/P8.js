@@ -12,7 +12,6 @@
  *  1   1
 */
 
-
 function checkUnival(root, data) {
 	if(!root) return true;
 	if(data !== root.data) return false;
