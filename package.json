@@ -1,0 +1,33 @@
+{
+  "name": "javascript-things",
+  "version": "1.0.0",
+  "description": "<a href=\"https://raw.githubusercontent.com/karan1205/javascript-things/master/javascript-things.jpg\"><img src=\"javascript-things.jpg\" title=\"javascript-things\" alt=\"javascript-things\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karan1205/javascript-things.git"
+  },
+  "keywords": [
+    "javascript",
+    "data-structures",
+    "design-patterns",
+    "algorithms"
+  ],
+  "author": "Karan Singh <karan1205singh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karan1205/javascript-things/issues"
+  },
+  "homepage": "https://github.com/karan1205/javascript-things#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.0",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {}
+}
