@@ -1,3 +1,7 @@
+/**
+ * Given a directed graph, the task is to count the in and out degree of each vertex of the graph.
+ * https://www.geeksforgeeks.org/finding-in-and-out-degrees-of-all-vertices-in-a-graph/
+ */
 import {Graph} from '../index';
 
 function findInAndOutDegree(graph) {
