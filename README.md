@@ -33,6 +33,8 @@ This repository contains implementaions of data structures and algorithms, desig
 - [Trees](./DsAlgo/Trees)
     - [Binary Search Tree](./DsAlgo/Trees/BinarySearchTree.js)
     - [Problems](./DsAlgo/Trees/Problems)
+- [Graphs](./DsAlgo/Graphs)
+    - [Adjacency List](./DsAlgo/Graphs/AdjacencyList.js)
 
 ## [Built-in JavaScript Objects and Utils](./Js)
 
