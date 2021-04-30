@@ -1,6 +1,7 @@
 export class Graph {
-    constructor() {
+    constructor(directed = false) {
         this.adjacencyList = {};
+        this.directed = directed;
     }
 
     addVertex(vertex) {
@@ -19,7 +20,9 @@ export class Graph {
             return `${vertex2} not exists`;
         }
         this.adjacencyList[vertex1].push(vertex2);
-        this.adjacencyList[vertex2].push(vertex1);
+        if(!this.directed) {
+            this.adjacencyList[vertex2].push(vertex1);
+        }
         return this.adjacencyList;
     }
 
@@ -28,7 +31,9 @@ export class Graph {
             return 'invalid vertex';
         }
         this.adjacencyList[vertex1] = this.adjacencyList[vertex1].filter(v => v !== vertex2);
-        this.adjacencyList[vertex2] = this.adjacencyList[vertex1].filter(v => v !== vertex1);   
+        if(!this.directed) {
+            this.adjacencyList[vertex2] = this.adjacencyList[vertex1].filter(v => v !== vertex1);
+        }
         return this.adjacencyList;
     }
 
