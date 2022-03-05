@@ -16,3 +16,8 @@
 ## Two essential parts of a recursive function!
 * Base case
 * Different Input
+
+Examples-
+
+* [Factorial](factorial.js)
+* [Is Array Sorted](is-sorted.js)
