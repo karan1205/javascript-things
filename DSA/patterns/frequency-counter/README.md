@@ -1,4 +1,4 @@
-#Frequency Counter Pattern 
+# Frequency Counter Pattern
 
 * The Frequency Counter pattern uses an object or set to collect values and the frequency of those values.
 
