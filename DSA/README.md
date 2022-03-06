@@ -5,3 +5,4 @@
 * [Searching Algorithms](searching-algorithms)
 * [Sorting Algorithms](sorting-algorithms)
 * [Linked List](linked-lists)
+* [Stacks](stacks)
