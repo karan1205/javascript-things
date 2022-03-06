@@ -4,5 +4,5 @@
 * The last element inserted is the first one to be deleted.
 * Hence, it is called the Last in First out (LIFO) or First in Last out(FILO) list.
 
-[Stack using Array](stack.array.js)
-[Stack using Linked List](stack.linked-list.js)
+* [Stack using Array](stack.array.js)
+* [Stack using Linked List](stack.linked-list.js)
