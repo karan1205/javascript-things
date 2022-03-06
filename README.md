@@ -23,8 +23,8 @@ This repository contains implementaions of data structures and algorithms, desig
 
 - [Recursion](DSA/Recursion/)
 - [Linked Lists](DSA/LinkedLists)
-    - [Singly Linked List](DSA/LinkedLists/SinglyLinkedList.js)
-    - [Doubly Linked List](DSA/LinkedLists/DoublyLinkedList.js)
+    - [Singly Linked List](DSA/LinkedLists/singly-linked-list.function.js)
+    - [Doubly Linked List](DSA/LinkedLists/doubly-linked-list.function.js)
     - [Problems](DSA/LinkedLists/Problems)
 - [Stacks](DSA/Stacks)
     - [Using Array](DSA/Stacks/StackArray.js)

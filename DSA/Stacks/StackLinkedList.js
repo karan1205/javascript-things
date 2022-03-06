@@ -1,4 +1,4 @@
- const { SinglyLinkedList } = require('../LinkedLists');
+ const { SinglyLinkedList } = require('../linked-lists');
  
  /**
   * Type declaration for Stack using Linked List

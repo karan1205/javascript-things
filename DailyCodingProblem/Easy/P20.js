@@ -7,7 +7,7 @@
 */
 
 /**
- * Refer 'LinkedLists/Problems/intersect.js'.
- * const getIntersectionPoint = require('../../LinkedLists/Problems/intersect');
+ * Refer 'linked-lists/Problems/intersect.js'.
+ * const getIntersectionPoint = require('../../linked-lists/Problems/intersect');
 */
 
