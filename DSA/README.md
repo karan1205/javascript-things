@@ -4,3 +4,4 @@
 * [Recursion](recursion)
 * [Searching Algorithms](searching-algorithms)
 * [Sorting Algorithms](sorting-algorithms)
+* [Linked List](linked-lists)
