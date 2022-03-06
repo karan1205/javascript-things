@@ -6,3 +6,4 @@
 * [Sorting Algorithms](sorting-algorithms)
 * [Linked List](linked-lists)
 * [Stacks](stacks)
+* [Queues](queues)
