@@ -27,7 +27,7 @@ This repository contains implementaions of data structures and algorithms, desig
     - [Doubly Linked List](DSA/LinkedLists/doubly-linked-list.function.js)
     - [Problems](DSA/LinkedLists/Problems)
 - [Stacks](DSA/Stacks)
-    - [Using Array](DSA/Stacks/StackArray.js)
+    - [Using Array](DSA/Stacks/stack.array.js)
     - [Using Linked List](DSA/Stacks/LinkedList.js)
     - [Problems](DSA/Stacks/Problems)
 - [Trees](DSA/Trees)
